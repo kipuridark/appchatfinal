@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/drawable-v24/reciver_shape.xml" value="0.2775" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/drawable-v24/send_btn.xml" value="0.2775" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/drawable/sender_shape.xml" value="0.2775" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/layout/activity_chat.xml" value="0.3614583333333333" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/layout/activity_registration.xml" value="0.3625" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/layout/reciver_layout_item.xml" value="0.3625" />
+        <entry key="..\:/Test/appchatfinal/Wolfapp2/app/src/main/res/layout/sender_layout_item.xml" value="0.2965811965811966" />
         <entry key="..\:/Wolfapp2/app/src/main/res/drawable/edtext_shape.xml" value="0.2805" />
         <entry key="..\:/Wolfapp2/app/src/main/res/drawable/shape_dialog.xml" value="0.2805" />
         <entry key="..\:/Wolfapp2/app/src/main/res/drawable/shape_item.xml" value="0.2805" />
