@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Wolfapp</string>
+    <string name="settings">Setting</string>
+    <string name="trust_your_feelings_be_a_good_human_beings">chat your way</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="log_out">Log Out</string>
+    <string name="account">Account</string>
+    <string name="chat_settings">Chat Setting</string>
+    <string name="search">Search</string>
 </resources>

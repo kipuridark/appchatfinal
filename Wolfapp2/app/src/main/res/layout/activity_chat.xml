@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ChatActivity">
+    >
 
     <LinearLayout
         android:id="@+id/ll1"
@@ -20,7 +20,7 @@
             android:layout_height="@dimen/_96sdp"
             app:civ_border_width="@dimen/_2sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            app:civ_border_color="@color/countBackgroundColor"
+            app:civ_border_color="@color/cam"
             android:src="@drawable/avatar"
             />
 
@@ -39,53 +39,59 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_above="@id/ll3"
-        android:layout_below="@id/ll1"
+        android:id="@+id/messageAdater"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/messageAdater"/>
+        android:layout_above="@id/ll3"
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="7dp" />
 
     <LinearLayout
         android:id="@+id/ll3"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_margin="@dimen/_5sdp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:layout_weight="1"
-            android:layout_margin="@dimen/_3sdp"
-            app:cardBackgroundColor="@color/purple_200"
-            app:cardCornerRadius="@dimen/_540sdp"
             android:layout_width="@dimen/_350sdp"
-            android:layout_height="@dimen/_35sdp">
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/cam"
+            app:cardCornerRadius="@dimen/_540sdp">
 
             <EditText
                 android:id="@+id/editMessage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="@dimen/_10sdp"
                 android:layout_gravity="center"
-                android:hint="Text the message"
+                android:background="@null"
                 android:fontFamily="@font/spartan_regular_400"
-                android:background="@null"/>
+                android:hint="Text the message"
+                android:paddingStart="@dimen/_10sdp" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_weight="1"
-            android:layout_margin="@dimen/_5sdp"
-            app:cardBackgroundColor="@color/purple_200"
-            app:cardCornerRadius="@dimen/_540sdp"
             android:layout_width="@dimen/_50sdp"
-            android:layout_height="@dimen/_35sdp">
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/cam"
+            app:cardCornerRadius="@dimen/_540sdp">
+
             <ImageView
                 android:id="@+id/sentBtn"
-                android:layout_width="@dimen/_20sdp"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_20sdp"
                 android:layout_gravity="center"
-                android:background="@drawable/send_btn"/>
+                android:background="@drawable/send_btn" />
 
         </androidx.cardview.widget.CardView>
 
